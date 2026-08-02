@@ -1,0 +1,18 @@
+{
+  "name": "onboarding-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tiny API that stores onboarding page submissions (company, hire, manager, buddy) in Postgres.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
